@@ -1,0 +1,83 @@
+body{
+    background-image: url("../images/Logo.png");
+    background-repeat: no-repeat;
+    background-size: 1100px;
+    background-position: right 10px;
+    background-color: black;
+    font-family: 'Naruto';
+    animation-name: myanim;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+
+   
+}
+
+h1{
+    color: orangered;
+
+}
+
+h2{
+    color: orangered;
+}
+
+@keyframes myanim{
+
+    0%{background-image: url(../images/Logo.png);}
+
+    10%{background-image: url(../images/Naruto.png);}
+
+    20%{background-image: url(../images/Sasuke.png);}
+
+    30%{background-image: url(../images/Kakashi.jpg);}
+
+    40%{background-image: url(../images/Itachi.jpg);}
+
+    50%{background-image: url(../images/Deidara.jpg);}
+
+    60%{background-image: url(../images/Shikamaru.png)}
+
+    70%{background-image: url(../images/Tobi.jpg);}
+
+    80%{background-image: url(../images/Tobirama.png);}
+
+    90%{background-image: url(../images/Jiraiya.jpeg);}
+
+    100%{background-image: url(../images/Madara.png);}
+
+}
+
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: orangered;
+}
+
+li{
+    float: left;
+    border-right: 1px solid black;
+}
+
+li a{
+    display: block;
+    font-style: italic;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active){
+   background-color: white;
+}
+
+.active{
+    background-color: white;
+}
+
+@font-face {
+    font-family: Naruto;
+    src: url(../Fonts/njnaruto.ttf);
+}

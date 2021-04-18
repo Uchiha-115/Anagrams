@@ -1,0 +1,52 @@
+body{
+    background-color: black;
+    background-image: url(../images/NarutoTU.jpg), url(../images/NarutoRun.gif), url(../images/NarutoLaugh.gif);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-size: 650px, 650px, 500px;
+    font-family: Naruto;
+    background-position: right bottom, left bottom, right top;
+    
+}
+
+h2{
+    color:orangered;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: orangered;
+}
+
+li{
+    float: left;
+    border-right: 1px solid black;
+}
+
+li a{
+    display: block;
+    font-style: italic;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active){
+   background-color: white;
+}
+
+.active{
+    background-color: white;
+}
+
+html{
+    min-height: 900px;
+}
+
+@font-face {
+    font-family: Naruto;
+    src: url(../Fonts/njnaruto.ttf);
+}
